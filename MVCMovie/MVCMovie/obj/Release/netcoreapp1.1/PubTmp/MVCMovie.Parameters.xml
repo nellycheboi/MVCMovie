@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="MVCMovie20171201062213" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Nelly\\projects\\personal\\asp-net\\MVCMovie\\MVCMovie\\obj\\Release\\netcoreapp1\.1\\PubTmp\\Out\\$" />
-  </parameter>
-</parameters>
