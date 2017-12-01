@@ -1,0 +1,10 @@
+C:\Users\Nelly\projects\personal\asp-net\MVCMovie\MVCMovie\bin\Release\netcoreapp1.1\MVCMovie.deps.json
+C:\Users\Nelly\projects\personal\asp-net\MVCMovie\MVCMovie\bin\Release\netcoreapp1.1\MVCMovie.runtimeconfig.json
+C:\Users\Nelly\projects\personal\asp-net\MVCMovie\MVCMovie\bin\Release\netcoreapp1.1\MVCMovie.runtimeconfig.dev.json
+C:\Users\Nelly\projects\personal\asp-net\MVCMovie\MVCMovie\bin\Release\netcoreapp1.1\MVCMovie.dll
+C:\Users\Nelly\projects\personal\asp-net\MVCMovie\MVCMovie\bin\Release\netcoreapp1.1\MVCMovie.pdb
+C:\Users\Nelly\projects\personal\asp-net\MVCMovie\MVCMovie\obj\Release\netcoreapp1.1\MVCMovie.csprojResolveAssemblyReference.cache
+C:\Users\Nelly\projects\personal\asp-net\MVCMovie\MVCMovie\obj\Release\netcoreapp1.1\MVCMovie.csproj.CoreCompileInputs.cache
+C:\Users\Nelly\projects\personal\asp-net\MVCMovie\MVCMovie\obj\Release\netcoreapp1.1\MVCMovie.AssemblyInfo.cs
+C:\Users\Nelly\projects\personal\asp-net\MVCMovie\MVCMovie\obj\Release\netcoreapp1.1\MVCMovie.dll
+C:\Users\Nelly\projects\personal\asp-net\MVCMovie\MVCMovie\obj\Release\netcoreapp1.1\MVCMovie.pdb
