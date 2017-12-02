@@ -22,10 +22,12 @@ namespace MVCMovie.Controllers
         /// 
         /// </summary>
         /// <returns></returns>
-        public string Welcome(string name, int ID = 1)
+        public ActionResult Welcome(string name, int numTimes = 1)
         {
-            // HttpUtility.HTMLEncode protects script exploits
-            return HttpUtility.HtmlEncode($"Hello {name}, NumTimes is: {ID}");
+            ViewBag.Message = $"Hello {name}";
+            ViewBag.NumTimes = numTimes;
+
+            return View();
         }
     }
 }
