@@ -114,6 +114,7 @@ namespace MVCMovie.Controllers
         }
 
         // GET: Movies/Delete/5
+        //  it returns a view of the movie where you can submit (HttpPost) the deletion
         public ActionResult Delete(int? id)
         {
             if (id == null)
@@ -129,6 +130,11 @@ namespace MVCMovie.Controllers
         }
 
         // POST: Movies/Delete/5
+        //   // The common language runtime (CLR) requires overloaded methods to have a unique parameter signature (same method name but different list of parameters). However, here you need two Delete methods -- one for GET and one for POST -- that both have the same parameter signature. (They both need to accept a single integer as a parameter.)
+        // To sort this out, you can do a couple of things.One is to give the methods different names. That's what the scaffolding mechanism did in the preceding example. However, this introduces a small problem: ASP.NET maps segments of a URL to action methods by name, and if you rename a method, routing normally wouldn't be able to find that method.The solution is what you see in the example, which is to add the ActionName("Delete") attribute to the DeleteConfirmed method.This effectively performs mapping for the routing system so that a URL that includes /Delete/ for a POST request will find the DeleteConfirmed method.
+        // Another common way to avoid a problem with methods that have identical names and signatures is to artificially change the signature of the POST method to include an unused parameter. For example, some developers add a parameter type FormCollection that is passed to the POST method, and then simply don't use the parameter:
+        // https://docs.microsoft.com/en-us/aspnet/mvc/overview/getting-started/introduction/examining-the-details-and-delete-methods
+        // http://stephenwalther.com/blog/archive/2009/01/21/asp.net-mvc-tip-46-ndash-donrsquot-use-delete-links-because.aspx
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(int id)
